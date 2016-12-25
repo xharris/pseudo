@@ -1,0 +1,24 @@
+.pseudo-viewer {
+    .line {
+        >*:not(.children) {
+            display: inline-block;
+        }
+        .pre {
+            white-space: pre;
+            margin: 0px 5px;
+
+            >* {
+                display: inline-block;
+            }
+
+            >p {
+                margin: 0px;
+            }
+        }
+
+        >.children {
+            display: block;
+            margin-left: 35px;
+        }
+    }
+}

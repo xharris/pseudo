@@ -1,0 +1,17 @@
+.pseudo-viewer .line > *:not(.children) {
+  display: inline-block;
+}
+.pseudo-viewer .line .pre {
+  white-space: pre;
+  margin: 0px 5px;
+}
+.pseudo-viewer .line .pre > * {
+  display: inline-block;
+}
+.pseudo-viewer .line .pre > p {
+  margin: 0px;
+}
+.pseudo-viewer .line > .children {
+  display: block;
+  margin-left: 35px;
+}
